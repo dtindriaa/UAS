@@ -9,7 +9,7 @@ public class ReverseString {
         
         Scanner input = new Scanner(System.in);
         
-        System.out.println("Input kata atau kalimat disini : ");
+        System.out.println("Masukkan Text : ");
         
         kataNormal = input.nextLine();
         
@@ -18,7 +18,8 @@ public class ReverseString {
             kataBalik += kataNormal.charAt(i);
         }
         
-        System.out.println("Hasil kata yang di balik ; " + kataBalik );
+        System.out.println(" ");
+        System.out.println("Hasil : " + kataBalik );
     
         }
 }
